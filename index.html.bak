@@ -13,6 +13,7 @@
     <![endif]-->
   </head>
   <body>
-<div style="height:200px; width:100%;background-image:url('images/bg.jpg');">
+<div style="height:auto; width:100%;background-image:url('images/bg.jpg');">
+dddd
   </body>
 </html>
