@@ -1,0 +1,51 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Blogging - AxitKhurana</title><description>Thoughts, stories and ideas of Akshit Khurana</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 10 Nov 2014 16:10:05 GMT</lastBuildDate><atom:link href="http://localhost:2368/tag/blogging/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Introducing Buster</title><description>&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2014/10/ghost.png" alt="Ghost"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/axitkhurana/buster"&gt;Buster&lt;/a&gt; is a Super simple, Totally awesome, Brute force &lt;strong&gt;static site generator for &lt;a href="http://ghost.org/" title="The Open Source Blogging Platform"&gt;Ghost&lt;/a&gt;&lt;/strong&gt; inspired by Octopress.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Generate Static Pages. Preview. Deploy to Github Pages.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="theinterface"&gt;The interface&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;setup [--gh-repo=&amp;lt;repo-url&amp;gt;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Creates a GIT repository inside &lt;code&gt;static/&lt;/code&gt; directory. If you don't specify the &lt;code&gt;repo-url&lt;/code&gt;, buster will ask you the clone URL of your new Github Pages repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;generate [--domain=&amp;lt;local-address&amp;gt;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Generates static pages from locally running Ghost instance.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;preview&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Preview what's generated on &lt;code&gt;localhost:9000&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;deploy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Commits and deploys changes static files to Github repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;add-domain &amp;lt;domain-name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Adds CNAME file with custom domain name as required by Github Pages.&lt;/p&gt;
+
+&lt;p&gt;Buster assumes you have &lt;code&gt;static/&lt;/code&gt; folder in your current directory (or creates one during &lt;code&gt;setup&lt;/code&gt; command). You can specify custom directory path using &lt;code&gt;[--dir=&amp;lt;path&amp;gt;]&lt;/code&gt; option to any of the above commands.&lt;/p&gt;
+
+&lt;h2 id="ghostwhat"&gt;Ghost. What?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://ghost.org/features/" title="Ghost Features."&gt;Ghost&lt;/a&gt; is a beautifully designed, completely customisable and completely &lt;a href="https://github.com/TryGhost/Ghost" title="Ghost on Github"&gt;Open Source&lt;/a&gt; &lt;strong&gt;Blogging Platform&lt;/strong&gt;. If you haven't tried it out yet, check it out. You'll love it.&lt;/p&gt;
+
+&lt;p&gt;The Ghost Foundation is not-for-profit organization funding open source software and trying to completely change the world of online publishing. Consider &lt;a href="http://ghost.org/about/donate/" title="You are awesome!"&gt;donating to Ghost&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="buster"&gt;Buster?&lt;/h3&gt;
+
+&lt;p&gt;Inspired by THE GhostBusters.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://upload.wikimedia.org/wikipedia/en/c/c7/Ghostbusters_cover.png" alt="Ghost Buster Movie"&gt;&lt;/p&gt;
+
+&lt;h2 id="contributing"&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Source is available on &lt;a href="https://github.com/axitkhurana/buster/"&gt;Github&lt;/a&gt;. Checkout the existing &lt;a href="https://github.com/axitkhurana/buster/issues"&gt;issues&lt;/a&gt; or create a new one. Pull requests welcome!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;em&gt;Made with &lt;a href="http://en.wikipedia.org/wiki/Jugaad"&gt;jugaad&lt;/a&gt; in &lt;a href="http://en.wikipedia.org/wiki/Delhi"&gt;Dilli&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Ghost icon designed by &lt;a href="http://thenounproject.com/noun/ghost/#icon-No3941"&gt;Paulo Volkova&lt;/a&gt;, 2012&lt;/sub&gt;&lt;/p&gt;</description><link>http://localhost:2368/introducing-ghost/</link><guid isPermaLink="false">e7a98cfe-6d4b-4751-b13d-32d4fc15ffa7</guid><category>Blogging</category><category>Ghost</category><category>Buster</category><category>Github</category><dc:creator>Akshit Khurana</dc:creator><pubDate>Sun, 20 Oct 2013 19:00:00 GMT</pubDate></item></channel></rss>
