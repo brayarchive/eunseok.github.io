@@ -594,23 +594,16 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .subscribe-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    float: right;
-    height: 38px;
-    padding: 0 20px;
-    border: transparent 1px solid;
-    color: #9EABB3;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 35px;
-    white-space: nowrap;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.1);
-    transition: all ease 0.3s;
+     font-size: 0.857em;
+  width: 100%;
+  padding: 0.8em 1.5em 0.7em 1.5em;
+  box-shadow: none;
+  -webkit-border-radius: 1.5em;
+  -moz-border-radius: 1.5em;
+  border-radius: 1.5em;
+  margin-bottom: 2em;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 .subscribe-button:before {
     font-size: 9px;
