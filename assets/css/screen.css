@@ -134,10 +134,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-ghost:before {
 }
 .icon-feed:before {
-    content: "\f601";
 }
 .icon-twitter:before {
-    content: "\f602";
     font-size: 1.1em;
 }
 .icon-google-plus:before {
