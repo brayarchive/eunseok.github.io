@@ -150,6 +150,15 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-stats:before {
     content: "\f606";
 }
+.footer 
+{ 
+ overflow: hidden;
+ position: absolute;
+ bottom: 0; 
+ height: 150px; width:100%; text-align: center;
+ margin-left:0px; 
+ margin-bottom: 0px;
+}
 .icon-location:before {
     content: "\f607";
     margin-left: -3px; /* Tracking fix */
