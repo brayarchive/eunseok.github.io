@@ -287,7 +287,7 @@ video{
 .chapter_name{
 	position:relative;
 	display:flex;
-             left: -28%;
+             left: -29%;
 
 }
 .chapter_name span{
@@ -1101,22 +1101,24 @@ h3{
 
 .chapter_name .before{
 	display:block;
-    z-index:1;
-    background:inherit;
-    will-change: transform;
-    padding:50px 0 70px;
-    position:absolute;
-    line-height:1;
-    top:0;
-    transform:translateY(30px);
-    width: 10vw;
-    content: attr(data-content); /* dynamic content for the pseudo element */
-    background:#fff;
-    border-right:1px solid #00000033;
-    overflow:hidden;
-    font-family:"Noto Serif KR";
-    pointer-events: none; /* so the base char is selectable by mouse */
-    color: #000; /* for demo purposes */
+	left:-75%;
+	/* width:auto; */
+	z-index:1;
+	background:inherit;
+	will-change: transform;
+	/* padding:50px 0 70px; */
+	position:absolute;
+	line-height:1;
+	top:0;
+	transform:translateY(30px);
+	/* width: 10vw; */
+	content: attr(data-content); /* dynamic content for the pseudo element */
+	background:#fff;
+	/* border-right:1px solid #00000033; */
+	overflow:hidden;
+	font-family:"Noto Serif KR";
+	pointer-events: none; /* so the base char is selectable by mouse */
+	color: #000; /* for demo purposes */
 }
 
 	.chapter_name .after{
