@@ -90,7 +90,7 @@ video{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    transform: translateX( calc(50vw - 50%) );
+  
 }
 
 #logo_des{
