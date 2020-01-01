@@ -280,7 +280,7 @@ video{
 .chapter_name{
 	position:relative;
 	display:flex;
-    left: -30%;
+             left: -30%;
 
 }
 .chapter_name span{
@@ -310,11 +310,10 @@ video{
 }
 
 .chapter_name .before{
-	display:block;
+    display:block;
     z-index:1;
     background:inherit;
     will-change: transform;
-    padding:50px 0 70px;
     position:absolute;
     line-height:1;
     top:0;
