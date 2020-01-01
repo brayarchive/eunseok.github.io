@@ -280,6 +280,8 @@ video{
 .chapter_name{
 	position:relative;
 	display:flex;
+    left: -30%;
+
 }
 .chapter_name span{
 	position:relative;
@@ -317,7 +319,7 @@ video{
     line-height:1;
     top:0;
     transform:translateY(30px);
-    
+    width:auto;
     content: attr(data-content); /* dynamic content for the pseudo element */
     background:#fff;
  
