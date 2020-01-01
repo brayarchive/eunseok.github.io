@@ -317,10 +317,10 @@ video{
     line-height:1;
     top:0;
     transform:translateY(30px);
-    width: 6.5vw;
+    
     content: attr(data-content); /* dynamic content for the pseudo element */
     background:#fff;
-    border-right:0.5px solid #000000aa;
+ 
     overflow:hidden;
     font-family:"Noto Serif KR";
     pointer-events: none; /* so the base char is selectable by mouse */
