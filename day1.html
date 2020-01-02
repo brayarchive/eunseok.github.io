@@ -12,27 +12,11 @@
 	</head>
 <script language="JavaScript">
 function click() {
-if ((event.button==2) || (event.button==3)) {
+if ((event.button==2)) {
 alert('보안상 마우스 오른쪽 버튼과 휠 버튼을 사용할수 없습니다. 죄송합니다ㅠㅠㅠ');
 }
 }
 document.onmousedown=click
-// -->
-
-</script>
-<script language="JavaScript">
-<!-- Hide from old browsers
-if (navigator.appName == "Netscape") {
-document.captureEvents(Event.MOUSEDOWN)
-document.onmousedown = checkClick
-
-function checkClick(ev) {
-        if (ev.which != 1) {
-                alert('보안상 마우스 오른쪽 버튼과 휠 버튼을 사용할수 없습니다. 죄송합니다ㅠㅠㅠ')
-                return false
-        }
-}
-}
 // -->
 </script>
 		<div>
