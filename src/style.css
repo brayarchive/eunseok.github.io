@@ -1100,19 +1100,19 @@ h3{
     	white-space: nowrap;
 	}
 
-.chapter_name{
+.chapter_name .before{
 	display:block;
 	left:-75%;
 	/* width:auto; */
 	z-index:1;
 	background:inherit;
-	/*will-change: transform; */
+	will-change: transform;
 	/* padding:50px 0 70px; */
 	position:absolute;
 	line-height:1;
 	top:0;
-	/*transform:translateY(30px);
-	/* width: 10vw; 
+	transform:translateY(30px);
+	/* width: 10vw; */
 	content: attr(data-content); /* dynamic content for the pseudo element */
 	background:#fff;
 	/* border-right:1px solid #00000033; */
@@ -1122,7 +1122,7 @@ h3{
 	color: #000; /* for demo purposes */
 }
 
-/*	.chapter_name .after{
+	.chapter_name .after{
 		content: attr(data-content);
 		display:block;
 	    line-height:1;
@@ -1132,12 +1132,12 @@ h3{
 	    transform:translateY(-30px);
 	    top:0;
 	    width: 20vw;
-	    content: attr(data-content); 
+	    content: attr(data-content); /* dynamic content for the pseudo element */
 	    overflow:hidden;
 	    font-family:"Noto Sans KR";
-	    pointer-events: none; 
-	    color: #000;
-	}*/
+	    pointer-events: none; /* so the base char is selectable by mouse */
+	    color: #000; /* for demo purposes */
+	}
 	.chapter_top{
 		padding-top:10vh;
 	}
