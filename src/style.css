@@ -1122,7 +1122,7 @@ h3{
 	color: #000; /* for demo purposes */
 }
 
-	.chapter_name .after{
+/*	.chapter_name .after{
 		content: attr(data-content);
 		display:block;
 	    line-height:1;
@@ -1132,12 +1132,12 @@ h3{
 	    transform:translateY(-30px);
 	    top:0;
 	    width: 20vw;
-	    content: attr(data-content); /* dynamic content for the pseudo element */
+	    content: attr(data-content); 
 	    overflow:hidden;
 	    font-family:"Noto Sans KR";
-	    pointer-events: none; /* so the base char is selectable by mouse */
-	    color: #000; /* for demo purposes */
-	}
+	    pointer-events: none; 
+	    color: #000;
+	}*/
 	.chapter_top{
 		padding-top:10vh;
 	}
