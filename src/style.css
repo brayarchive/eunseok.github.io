@@ -1100,19 +1100,19 @@ h3{
     	white-space: nowrap;
 	}
 
-.chapter_name .before{
+.chapter_name{
 	display:block;
 	left:-75%;
 	/* width:auto; */
 	z-index:1;
 	background:inherit;
-	will-change: transform;
+	/*will-change: transform; */
 	/* padding:50px 0 70px; */
 	position:absolute;
 	line-height:1;
 	top:0;
-	transform:translateY(30px);
-	/* width: 10vw; */
+	/*transform:translateY(30px);
+	/* width: 10vw; 
 	content: attr(data-content); /* dynamic content for the pseudo element */
 	background:#fff;
 	/* border-right:1px solid #00000033; */
