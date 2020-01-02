@@ -90,7 +90,7 @@ video{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    transform: translateX( calc(50vw - 50%) );
+  
 }
 
 #logo_des{
@@ -227,12 +227,20 @@ video{
 #maintitle svg{
 	margin-top:5%;
 }
+.mainps{
+	color:#fff;
+	font-size:220pt;
+	font-weight:500;
+	text-align: center;
+	font-family:"Noto Sans KR";
+}
 .mainp{
 	color:#fff;
 	font-size:11pt;
 	font-weight:500;
 	text-align: center;
 	font-family:"Noto Sans KR";
+    padding-top: 40%;
 }
 #titlesvg{
 	height:70%;
@@ -250,7 +258,7 @@ video{
 	width:100vw;
 	background:#fff;
 	position:relative;
-	height:100vh;
+	height:300vh;
 }
 .chapterinner{
 	width:100%;
@@ -280,6 +288,8 @@ video{
 .chapter_name{
 	position:relative;
 	display:flex;
+             left: -29%;
+
 }
 .chapter_name span{
 	position:relative;
@@ -308,19 +318,18 @@ video{
 }
 
 .chapter_name .before{
-	display:block;
+    display:block;
     z-index:1;
     background:inherit;
     will-change: transform;
-    padding:50px 0 70px;
     position:absolute;
     line-height:1;
     top:0;
     transform:translateY(30px);
-    width: 6.5vw;
+    width:auto;
     content: attr(data-content); /* dynamic content for the pseudo element */
     background:#fff;
-    border-right:0.5px solid #000000aa;
+ 
     overflow:hidden;
     font-family:"Noto Serif KR";
     pointer-events: none; /* so the base char is selectable by mouse */
@@ -856,7 +865,7 @@ h3{
 	margin-left:10px;
 	border-radius:50px;
 	margin-right:auto;
-    background-image: url(../data/left.png);
+    background-image: url(./left.png);
     background-size: 50px;
     background-position: 0px;
     background-repeat: no-repeat;
@@ -874,7 +883,7 @@ h3{
 	/*background:#ccc;*/
 	opacity:0.7;
 	margin-left:auto;
-    background-image: url(../data/right.png);
+    background-image: url(./right.png);
     background-size: 50px;
     background-position: 40px;
     background-repeat: no-repeat;
@@ -1093,22 +1102,24 @@ h3{
 
 .chapter_name .before{
 	display:block;
-    z-index:1;
-    background:inherit;
-    will-change: transform;
-    padding:50px 0 70px;
-    position:absolute;
-    line-height:1;
-    top:0;
-    transform:translateY(30px);
-    width: 10vw;
-    content: attr(data-content); /* dynamic content for the pseudo element */
-    background:#fff;
-    border-right:1px solid #00000033;
-    overflow:hidden;
-    font-family:"Noto Serif KR";
-    pointer-events: none; /* so the base char is selectable by mouse */
-    color: #000; /* for demo purposes */
+	left:-75%;
+	/* width:auto; */
+	z-index:1;
+	background:inherit;
+	will-change: transform;
+	/* padding:50px 0 70px; */
+	position:absolute;
+	line-height:1;
+	top:0;
+	transform:translateY(30px);
+	/* width: 10vw; */
+	content: attr(data-content); /* dynamic content for the pseudo element */
+	background:#fff;
+	/* border-right:1px solid #00000033; */
+	overflow:hidden;
+	font-family:"Noto Serif KR";
+	pointer-events: none; /* so the base char is selectable by mouse */
+	color: #000; /* for demo purposes */
 }
 
 	.chapter_name .after{
