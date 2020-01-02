@@ -1099,7 +1099,18 @@ h3{
 		margin-bottom:100px;
     	white-space: nowrap;
 	}
-
+.category_title{
+	display:block;
+	left:-75%;
+	background:inherit;
+	position:absolute;
+	line-height:1;
+	top:0;
+	background:#fff;
+	overflow:hidden;
+	font-family:"Noto Serif KR";
+	color: #000; /* for demo purposes */
+}
 .chapter_name .before{
 	display:block;
 	left:-75%;
