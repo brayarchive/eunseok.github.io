@@ -865,7 +865,7 @@ h3{
 	margin-left:10px;
 	border-radius:50px;
 	margin-right:auto;
-    background-image: url(../data/left.png);
+    background-image: url(./src/left.png);
     background-size: 50px;
     background-position: 0px;
     background-repeat: no-repeat;
@@ -883,7 +883,7 @@ h3{
 	/*background:#ccc;*/
 	opacity:0.7;
 	margin-left:auto;
-    background-image: url(../data/right.png);
+    background-image: url(./src/right.png);
     background-size: 50px;
     background-position: 40px;
     background-repeat: no-repeat;
