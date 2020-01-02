@@ -3,36 +3,21 @@
 	<head>
 		<title>CES 2020 in Lasvegas</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no">
+				<meta name="viewport" content="width=device-width, user-scalable=no">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,500,700,900&amp;subset=korean" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:300,500,700,900&amp;subset=korean" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="./src/style.css">
+		<script src="./src/jquery.js"></script>
+		<script src="http://d3js.org/d3.v4.min.js"></script>
+
+		<script src="./src/ces.js"></script>
+		<style id="dynamic_ref"></style>
+		<script src="./src/stats.js"></script>
 	</head>
-<script type="text/javascript">
-    // F12 버튼 방지
-    $(document).ready(function(){
-        $(document).bind('keydown',function(e){
-            if ( e.keyCode == 123 /* F12 */) {
-                e.preventDefault();
-                e.returnValue = false;
-            }
-        });
-    });
-    
-    // 우측 클릭 방지
-    document.onmousedown=disableclick;
-    status="Right click is not available.";
-    
-    function disableclick(event){
-        if (event.button==2) {
-            alert(status);
-            return false;
-        }
-    }
-</script>
- 
-<body>
+	<body> 
+
+		
 		<div>
 			<div id="mainspread">
 <!-- 				<div id="video_wrapper">
@@ -74,9 +59,7 @@
 						1월 6일 오후 1시, 우리는 긴 여정을 위해 인천 공항에 모였다. 이번 CES 2020의 일정 중 가장 지루한 시간이 될 수도 있지만
 						1월 6일 오후 1시, 우리는 긴 여정을 위해 인천 공항에 모였다. 이번 CES 2020의 일정 중 가장 지루한 시간이 될 수도 있지만
 					</p>
-					<div class="yt_container">
-<iframe class="yt_embed" src="https://www.youtube.com/embed/DNqqjSDwGok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
+					<img src="https://images.mypetlife.co.kr/content/uploads/2019/03/26212754/angry-animal-cat-1331821-1024x683.jpg">
 					<br>
 					<p>비행 탑승 후의 내 모습은 초췌. </p>
 									<div class="slide_container">
@@ -220,7 +203,7 @@
 
 		<div id="footer">
 			<div class="copy">
-	
+				
 			</div>
 		</div>
 	</body>
