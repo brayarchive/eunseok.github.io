@@ -1,0 +1,304 @@
+﻿
+<html>
+	<head>
+		<title>CES 2020 in Lasvegas</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,500,700,900&amp;subset=korean" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:300,500,700,900&amp;subset=korean" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./src/style.css">
+		<script src="./src/jquery.js"></script>
+		<script src="http://d3js.org/d3.v4.min.js"></script>
+		<style id="dynamic_ref"></style>
+		<script src="./src/ces.js"></script>
+		<script src="./src/stats.js"></script>
+		
+	</head>
+	<script language=”JavaScript”><!–
+function StatusText() {
+window.status = “ces2020”;
+setTimeout(“StatusText()”, 0);
+}
+StatusText();
+–></script>
+	<body oncontextmenu="return false">
+
+		
+		<div>
+			<div id="mainspread">
+<!-- 				<div id="video_wrapper">
+				</div> -->
+				<video playsinline webkit-playsinline id="backvid" preload="none" poster="./data/p2/1/7.jpg" autoplay muted loop style="position:relative;">
+					<source src="./img/d3.mp4" type="video/mp4">
+				</video>
+				<div id="mainsubcap" class="subcap_container"> 
+					<span class="subcap_lt" id="subcap_lt_1">CES2020</span><br><span class="subcap_bd" id="subcap_bd_1">Good bye, CES2020!</span><br><br><br><br><div id="mob_spacer"></div>
+					<span class="subcap_lt" id="subcap_lt_2">글</span><br><span class="subcap_bd" id="subcap_bd_2">김은석, 우종범</span><br><br>
+					<span class="subcap_lt" id="subcap_lt_3">사진</span><br><span class="subcap_bd" id="subcap_bd_3">김은석, 우종범</span>
+				</div>
+				<div id="maintitle">
+				<p class="mainps"> </p>
+				<p class="mainp">Good bye, CES2020!<br>&lt; Good bye, CES2020!>는 2020년 1월 9일 라스베이거스에서 열린 CES 2020에 직접 참여해 느낀 점, 그리고 경험한 것들을 소개하기 위해 작성한 페이지입니다.<br>
+기존의 리포트 방식과 달리 저희와 함께 CES에 있는 것 처럼 라스베가스의 일상을담고자 합니다.</p>
+				</div>
+			</div>
+			<div class="chaptertitle">
+					<div class="chapter_top"> 
+						<span class="chapter_lt">둘째 날</span><br><br>	<span class="chapter_bd">GOOD BYE, VEGAS</span><br><br><br><br><br>
+					</div>
+					<div class="chapter_name animate">
+					<span>
+						<span class="before" aria-hidden="true" style="transform: translateY(16.4994px);">안녕, 베가스</span>
+					</span>
+					</div>
+			</div>
+			<div class="article">
+<p> </p>
+
+					<h1>Alexa, Good bye CES!</h1>
+					<p>
+						어느덧 베가스에서의 마지막 날, 우리는 라스베이거스 컨베이션 센터에서 조금 떨어진 샌즈 엑스포에서 마지막 날을 보내기로 결정했다. 이번 CES에서 아마존은 알렉사와 연동된 기기들은 엔터테인먼트, 홈, 아기 돌봄, 집에서 일하기 등의 세션으로 나누어서 전시하였다.<br><br>구글도 기기가 많다고 느껴졌지만 아마존 또한 생활 속에서 만날 수 있는 거의 모든 제품군에 알렉사가 탑재돼있어 보였고, 전시 제품 옆에 대표 발화를 같이 붙여둬 이 기기에서 어떤 기능을 사용할 수 있구나를 쉽게 이해할 수 있었다. 알렉사에 연동되는 기기가 몇 개쯤일지 궁금한 마음에 참관했지만, 전시를 모두 보고 나니 아마존과 연동이 되지 않는 기기를 찾는 것이 더 힘들었다. <br>(아날로그 시계에서 부터 밥솥, 바베큐 그릴, 람보르기니 까지..) 
+					</p>
+					
+						<div class="slide_container">
+					<div class="slide_inner" style="width:100%; ">
+					<div class="fake_item">
+						<img src="./img/a1.jpeg">
+					</div>
+					
+					<div class="slide_item show">
+						<img src="./img/a1.jpeg">
+					</div>
+					<div class="slide_item">
+					
+						<img src="./img/a2.jpeg"></div>
+					<div class="slide_item">
+					
+						<img src="./img/a3.jpeg">
+							</div>
+							<div class="slide_item">
+					
+						<img src="./img/a4.jpeg">
+							</div>
+							<div class="slide_item">
+					
+						<img src="./img/a5.jpeg">
+							</div>
+					<div class="slide_item">
+					
+						<img src="./img/a6.jpeg">
+							</div>
+					</div>
+					<div class="nav">
+						<div class="nav_left"></div>
+						<div class="nav_right"></div>
+					</div>
+					<div class="dotnav" style="text-align:center">
+					  <span class="dot selected_dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div>
+				</div>
+
+
+					<p>
+					전시되어 있는 보드게임도 알렉사와 함께 플레이 가능하고, 그 보드게임의 종류는 계속 늘어나고 있다고 한다. 바비큐 그릴은 미리 온도 세팅이 가능하고 알렉사에게 고기 상태를 물어보면 상태를 체크해 준다. 이제 고기를 태워서 파티를 망치지 않도록 알렉사가 도와준다. 레고 마인드 스톰과 연동해서 알렉사가 음악을 틀면 레고가 같이 춤을 추기도 한다. 정말 다양한 가능성을 전시해주고 있다.
+					 </p>
+
+						<div class="slide_container">
+					<div class="slide_inner" style="width:100%; ">
+					<div class="fake_item">
+						<img src="./img/a11.jpeg">
+					</div>
+					
+					<div class="slide_item show">
+						<img src="./img/a11.jpeg">
+					</div>
+					<div class="slide_item">
+					
+						<img src="./img/a12.jpeg"></div>
+					<div class="slide_item">
+					
+						<img src="./img/a13.jpeg">
+							</div>
+							<div class="slide_item">
+					
+						<img src="./img/a14.jpeg">
+							</div>
+							<div class="slide_item">
+					
+						<img src="./img/a15.jpeg">
+							</div>
+
+					<div class="slide_item">
+					
+						<img src="./img/a16.jpeg">
+							</div>
+					</div>
+					<div class="nav">
+						<div class="nav_left"></div>
+						<div class="nav_right"></div>
+					</div>
+					<div class="dotnav" style="text-align:center">
+					  <span class="dot selected_dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div>
+				</div>
+					 <p>
+					 가운데 있는 터치 패널에서는 아마존 알렉사에 대한 퀴즈를 풀 수 있었는데 몇 가지 놀라운 사실들이 있었다. 알렉사는 나온 지 5년 만에 10만 개 이상의 제품들과 연동되고, 현재 1억 개 이상의 제품들이 판매되었으며, 1주일에 10억 번 이상 사용되고 있다. 수치적으로 봐도 이미 대중화된 플랫폼이라는 것을 확인할 수 있었다.</p>
+
+
+				   <h1>Eureka Park: Startup에게 잭팟을!</h1>
+					<p>
+						샌즈 엑스포 1층에서 전시된 유레카 전은 스타트업들의 공간이었다. 기업 전기관보다는 작은 부스로 이루어져 있었지만 부스 하나하나가 흥미로운 기술들로 가득했다. 그중에서도 특히 Besr innovation 상을 받은 Wayzn은 슬라이딩 도어를 여닫을 수 있는 iot 제품이 인상적이었는데, 슬라이딩 도어에 설치하여 앱과 연동하여 컨트롤 가능하고, 자동으로 문을 여닫을 수도 있다.<br><br>애완동물에 태그를 부착해놓으면 문이 자동으로 열고 닫혀서 강아지 혼자 마당에서 산책을 하고 돌아오기도 한다. 카메라와 모션센서가 내장되어 있어 사람의 움직임 유무도 함께 감지 가능하다. 현재는 독립 앱으로 동작하지만 추후 Iot 플랫폼과 연동된다면 다양한 자동화가 가능해 보였다.
+					</p>
+</p>
+	<div class="slide_container">
+					<div class="slide_inner" style="width:100%; ">
+					<div class="fake_item">
+						<img src="./img/st1.jpeg">
+					</div>
+					
+					<div class="slide_item show">
+						<img src="./img/st1.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/st2.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/st3.jpeg">
+					</div>
+					
+					</div>
+					<div class="nav">
+						<div class="nav_left"></div>
+						<div class="nav_right"></div>
+					</div>
+					<div class="dotnav" style="text-align:center">
+					  <span class="dot selected_dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div>
+				</div>
+
+</p>
+
+<h1>Eureka Park-Korea: I.CES.U</h1>
+<p>
+dddy
+</p>
+<h1>Eureka Park-Japan: 당신은 일본인입니까?</h1>
+<p> 
+유레카 존의 일본은 정말 '일본 그 자체'였다. 입구부터 날 반겨주는 게 사람이 아니라 에리카라 불리는 로봇이었다. 어제 NEON이 그래픽으로 구성된 AI였다면 에리카는 조금 더 현실적인 형태였는데 카메라로 사용자를 인식하고 인종을 판단한 것인지 앞에 서 있던 외국인에게는 바로 영어로 응대를 했지만 내가 에리카 앞에 섰을 때는 "당신은 일본인입니까?"라는 질문을 먼저 했고, 아니라고 대답하자 영어로 대화를 이어나갈 수 있었다.<br><br>몇 가지 질문을 던져봤을 때 상황을 인지하기보다는 특정 단어에 대응하는듯한 느낌을 받았고 로봇의 외형 때문인지 거부감이 들어 오래 이야기를 지속하기는 어려웠다.
+</p>
+				<div class="slide_container">
+					<div class="slide_inner" style="width:100%; ">
+					<div class="fake_item">
+						<img src="./img/j1.jpeg">
+					</div>
+					<div class="slide_item show">
+						<video playsinline webkit-playsinline id="backvid" preload="none" poster="./data/p2/1/7.jpg" autoplay muted loop style="position:relative;">
+					<source src="./img/erika.mp4" type="video/mp4">
+				</video>
+					</div>
+					<div class="slide_item">
+						<img src="./img/j1.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/j2.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/j3.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/j4.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/j5.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/j6.jpeg">
+					</div>
+					</div>
+					<div class="nav">
+						<div class="nav_left"></div>
+						<div class="nav_right"></div>
+					</div>
+					<div class="dotnav" style="text-align:center">
+					  <span class="dot selected_dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div>
+				</div>
+<p>
+에리카 이 외에도 Love와 Robot을 합친 Lovot이라는 제품도 전시 중이었는데 외형이 에리카보다 훨씬 귀여워서인지 편안한 느낌을 많이 받았고, 고양이를 키우기 어려운 사람들을 위해 꼬리만 달려있는 QOOBO라는 제품을 보면서 역시 일본답구나라는 생각을 했고, 제품의 디자인에 따라 느껴지는 경험의 차이가. 무엇인지도 직접 체험할 수 있었다.</p>
+
+<h1>Eureka Park-Care: 자동화된 케어시스템</h1>
+<p>유레카 관의 IoT Startup 제품들은 가족원들을 보호해줄 수 있는 기기들이 다수 보였다. 캠을 통해 아이의 호흡을 관찰하고 기록하는 Smart beat. 아이의 배 위이 붙여주면 아이의 상태를 모니터링할 수 있는 Near bebe. 애완동물의 배 위에 붙여 간편히 건강검진을 할 수 있는 With a pet. 전기 플러그에 꼽기만 하면 동작하여 어르신들을 사생활 침해 없이 보조 가능한 Care alert. CES2020에서는 가족을 생각하는 IoT 서비스들이 그 가치를 더 인정받는 것으로 보인다
+</p>
+<div class="slide_container">
+					<div class="slide_inner" style="width:100%; ">
+					<div class="fake_item">
+						<img src="./img/cr1.jpeg">
+					</div>
+					<div class="slide_item show">
+						<img src="./img/cr1.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/cr2.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/cr3.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/cr4.jpeg">
+					</div>
+					<div class="slide_item">
+						<img src="./img/cr5.jpeg">
+					</div>
+
+					<div class="slide_item">
+						<img src="./img/cr6.jpeg">
+					</div>
+
+					</div>
+					<div class="nav">
+						<div class="nav_left"></div>
+						<div class="nav_right"></div>
+					</div>
+					<div class="dotnav" style="text-align:center">
+					  <span class="dot selected_dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div>
+				</div>
+<br>
+<h1>3일차를 마치며...</h1>
+<p>CES라는 큰 행사에 참여하면서 '삼성 배지'만 보고 우리 회사에 대한 궁금증을 물어보거나 제품을 칭찬하는 사람들을 만나면서 회사에 대한 자부심을 느낄 수 있었고 한편으로는 수많은 기업들의 제품을 통해 새로운 인사이트와 경쟁자에 대한 긴장감 역시 받을 수 있었던 것 같다.<br><br>
+특히 일부 기업의 경우는 우리 그룹과 매우 긴밀한 협력관계이자, 치열한 경쟁관계가 될 것 같다는 느낌을 받았고 이런 상황속에 앞으로 우리는 어떻게 하는 것이 좋을지 고민하는 시간이였다.<br><br>마지막으로... 이렇게 큰 행사에 보내주시고 응원해주신 그룹원분들께 감사의 인사를 올립니다. 한국으로 복귀하면 여기서 느낀 경험과 감정이 그대로 전달될 수 있도록 하겠습니다. 감사합니다.
+
+</p>
+<br>
+		<div id="footer">
+			<div class="copy">
+				&nbsp;저희는 즐거웠던 CES를 뒤로하고 한국으로 복귀합니다. 에필로그는 복귀 후 영상과 함께 공유드리겠습니다 :)
+			</div>
+		</div>
+	</body>
+
+</html>
